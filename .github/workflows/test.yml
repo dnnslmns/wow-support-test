@@ -26,5 +26,5 @@ jobs:
       # Perform the actions when a new issue is created.
       - uses: actions/checkout@v2
         with:
-          repository: "dnnslmns/wow-support"
+          repository: "dnnslmns/wow-support:main"
           path: "."
