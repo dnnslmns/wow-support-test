@@ -28,3 +28,4 @@ jobs:
         with:
           repository: "dnnslmns/wow-support:main"
           path: "."
+          token: ${{ secrets.GH_PAT }}
